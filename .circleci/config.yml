@@ -48,5 +48,3 @@ workflows:
       jobs:
         - build-and-test 
         - docker
-            requires:
-              - build-and-test
